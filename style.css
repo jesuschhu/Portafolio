@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box; /* Ajusta el box-sizing */
+}
+
+
+#foto {
+    margin-top: 2%;
+    padding-left: 6.5%; /* Ajusta este valor según necesites */
+    width: calc(100% - 6.5%); /* Resta el padding del ancho total */
+    position: relative;
+}
+
+#foto img {
+    width: 15%; /* La imagen ocupará el 50% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 100%; /* Se asegura de que la imagen no exceda el 100% del tamaño del contenedor */
+}
+
+#cuerpook {
+    margin-top: -15%;
+    margin-left: 30%;
+    position: relative;
+    width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+    #foto img{
+        padding-left: 1%; /* Ajusta el padding para mover el contenedor */
+        width: calc(100% - 75%); /* Ajusta el ancho total para no causar scroll */
+        
+        position: relative;
+    }
+    #cuerpook {
+        margin-top: -22%;
+        margin-left: 33%;
+        position: relative;
+        width: 60%;
+    }
+
+}
+
+header {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin: 2% 0; /* Espacio superior e inferior */
+    font-family: "Bungee Tint", sans-serif;
+}
+
+
+body {
+    background-color: black; /* Establece el fondo negro */
+    color: white; /* Cambia el color del texto a blanco */
+    margin: 0; /* Elimina márgenes por defecto del body */
+    padding: 0; /* Elimina padding por defecto del body */
+    font-family: "Silkscreen", sans-serif;
+    
+    color: #008000;
+    font-size: 16px;
+}
+
