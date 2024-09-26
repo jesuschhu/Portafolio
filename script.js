@@ -1,16 +1,16 @@
 const partes = [
     "Nombres: Jesús Angel Chávez Huamán (Mr.Puchitos)",
-    "Universidad: UNASAM",
-    "Soy estudiante de Ingeniería de Sistemas, fascinado por el mundo de la ciberseguridad y la seguridad de la información. Apasionado por la tecnología y comprometido con la protección de datos, busco aplicar mis conocimientos y habilidades en un entorno profesional desafiante.",
-    "Ocupación:", "Actualmente soy presidente y coordinador de CiberSecUNASAM y Miembro Activo de CiberSecUNI.",
+    "Universidad: Universidad Nacional Santiago Antunez de Mayolo",
+    "Soy estudiante de Ingeniería de Sistemas, apasionado por la ciberseguridad y la protección de datos, y busco aplicar mis conocimientos en un entorno profesional desafiante.",
+    "Ocupación:", "Actualmente soy presidente, coordinador de CiberSecUNASAM y Miembro Activo de CiberSecUNI.",
     "Experiencia:",
-    "HC-group (2019/02/30 - 2019/11/26) Practicante en el área de sistemas.",
-    "EMD-negociaciones (2020/01/15 - 2020/03/30) Practicante en el área de telecomunicaciones.",
-    "UNASAM-ogtise (2024/08/02 - actualidad) Practicante en el área de seguridad de la información.",
-    "Habilidades técnicas:", "Dominio en áreas como pentesting, análisis forense, hacking ético, SQL Injection y administración de sistemas en Parrot OS y Kali Linux.",
+    "- HC-group (2019/02/30 - 2019/11/26) Practicante en el área de sistemas.",
+    "- EMD-negociaciones (2020/01/15 - 2020/03/30) Practicante en el área de telecomunicaciones.",
+    "- UNASAM-ogtise (2024/08/02 - actualidad) Practicante en el área de seguridad de la información.",
+    "Habilidades técnicas:", "Dominio de seguridad de la información, análisis de vulnerabilidades, hacking ético, SQL Injection y uso intermedio de distribuciones de linux como Parrot OS y Kali Linux.",
     "Proyectos actuales:",
-    "-Actualmente estoy realizando un proyecto sobre análisis de vulnerabilidades de subdominios de las entidades de Huaraz-Ancash-Perú.",
-    "-Desarrollando una plataforma de CTF (Capture the Flag) para la UNASAM."
+    "-Actualmente estoy realizando un proyecto sobre análisis de vulnerabilidades de subdominios de las entidades de Huaraz-Ancash-Perú-2024.",
+    "-Desarrollando una plataforma de CTF (Capture the Flag) para la Universidad Nacional Santiago Antunez de Mayolo."
 ];
 
 let indexParte = 0;
