@@ -24,20 +24,38 @@
     position: relative;
     width: 60%;
 }
+#parte4 {
+    font-weight: bold;
+}
+
+#parte6 {
+    font-weight: bold;
+}
+#parte10 {
+    font-weight: bold;
+}
+
+#parte12 {
+    font-weight: bold;
+}
 
 @media only screen and (max-width: 768px) {
     #foto img{
         padding-left: 1%; /* Ajusta el padding para mover el contenedor */
-        width: calc(100% - 75%); /* Ajusta el ancho total para no causar scroll */
-        
+        width: calc(100% - 55%); /* Ajusta el ancho total para no causar scroll */
+        margin-left: 25%;
         position: relative;
+        margin-top: -10%;
     }
     #cuerpook {
-        margin-top: -22%;
-        margin-left: 33%;
+        margin-top: 5%;
+        margin-left: 5%;
         position: relative;
-        width: 60%;
+        width: 90%;
+        
     }
+
+   
 
 }
 
